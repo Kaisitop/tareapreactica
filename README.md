@@ -7,7 +7,7 @@ Proyecto de formulario de registro desarrollado con React y Bootstrap que incluy
 1. Clonar el repositorio:
 ```bash
 git clone https://github.com/Kaisitop/tareapreactica.git
-cd formulario-react
+cd tareapreactica
 ```
 
 2. Instalar dependencias:
