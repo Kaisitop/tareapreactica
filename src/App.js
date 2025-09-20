@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import FormularioRegistro from './components/FormularioRegistro';
+import './styles/formulario.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="bg-primary text-white py-4 mb-5">
+        <div className="container">
+          <h1 className="text-center">Mi Aplicación React</h1>
+          <p className="text-center mb-0">Formulario de registro con validaciones</p>
+        </div>
       </header>
+      
+      <main>
+        <FormularioRegistro />
+      </main>
+      
+      <footer className="bg-light text-center py-4 mt-5">
+        <div className="container">
+          <small className="text-muted">
+            © 2025 Mi Aplicación React - Desarrollado con React y Bootstrap
+          </small>
+        </div>
+      </footer>
     </div>
   );
 }
